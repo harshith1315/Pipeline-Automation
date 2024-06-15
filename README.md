@@ -12,7 +12,7 @@ The architecture of the Pipeline Automation project is designed to facilitate sm
 ## Process Description
 The process begins with the creation of a website using Flask, providing users with a user-friendly interface to upload Excel files. Once a file is uploaded, it is stored in Azure Blob Storage, a scalable object storage solution offered by Microsoft Azure.
 
-Using Python scripts, an event trigger is set up within the pipeline, ensuring that whenever a new file is created in the Azure Blob Storage, the pipeline is automatically initiated. This event-driven approach minimizes manual intervention and ensures timely processing of data.
+An event trigger is set up within the pipeline, ensuring that whenever a new file is created in the Azure Blob Storage, the pipeline is automatically initiated. This event-driven approach minimizes manual intervention and ensures timely processing of data.
 
 Upon triggering, the pipeline orchestrates the transfer of the file from Azure Blob Storage to an Azure SQL table. Notably, each table is named after the timestamp of the file's creation, allowing for easy organization and retrieval of data.
 
