@@ -5,9 +5,10 @@ Pipeline automation has become an indispensable tool for streamlining workflows 
 ## Architecture Overview
 The architecture of the Pipeline Automation project is designed to facilitate smooth data transfer from Excel files to an Azure SQL database. The system consists of several key components, including a Flask-based web application, Azure Blob Storage, Azure SQL, and a pipeline with event triggers for automation.
 <p align="center">
-  <img width="650" height="325" src="https://github.com/harshith1315/pipeline-automation/assets/111886682/c8215445-7d20-4328-b999-103c22d688f5"
+  <img width="650" height="325" src="https://github.com/harshith1315/CICD-Automation/assets/111886682/c03c463b-65df-4da3-a971-472b88edad59"
 >
 </p>
+
 
 ## Process Description
 The process begins with the creation of a website using Flask, providing users with a user-friendly interface to upload Excel files. Once a file is uploaded, it is stored in Azure Blob Storage, a scalable object storage solution offered by Microsoft Azure.
@@ -35,3 +36,4 @@ The pipeline orchestrates the seamless transfer of data from Azure Blob Storage 
 By automating the pipeline, this project significantly reduces manual effort and enhances data processing efficiency, making it a valuable asset for organizations dealing with large volumes of data.
 ## Contributors
 KANUMURI HARSHITH(@harshith1315)
+
