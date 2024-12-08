@@ -1,4 +1,4 @@
-# CI/CD-Automation
+# PipeLine Automation
 ## Introduction
 Pipeline automation has become an indispensable tool for streamlining workflows and enhancing efficiency in various domains. In this project, titled "Pipeline Automation," a robust system has been developed to automate the process of transferring data from Excel files to an Azure SQL database. Leveraging Flask for web development and Python for backend scripting, this project integrates seamlessly with Azure Blob Storage and Azure SQL, offering a comprehensive solution for data management tasks.
 
@@ -36,4 +36,3 @@ The pipeline orchestrates the seamless transfer of data from Azure Blob Storage 
 By automating the pipeline, this project significantly reduces manual effort and enhances data processing efficiency, making it a valuable asset for organizations dealing with large volumes of data.
 ## Contributors
 KANUMURI HARSHITH(@harshith1315)
-
